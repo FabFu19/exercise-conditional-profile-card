@@ -45,25 +45,17 @@ function render(variables = {}) {
               ? variables.socialMediaPosition
               : "Position right"
           }">
-            <li><a href="${
-              variables.twitter
-                ? variables.twitter
-                : "https://x.com/4geeksacademy?s=21&t=1KtvCQsso_w9I3rQhVuyog"
+            <li><a href="https://x.com//${
+              variables.twitter ? variables.twitter : "4geeksacademy"
             }" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="${
-              variables.github
-                ? variables.github
-                : "https://github.com/4GeeksAcademy"
+            <li><a href="https://github.com/${
+              variables.github ? variables.github : "4GeeksAcademy"
             }" target="_blank"><i class="fab fa-github"></i></a></li>
-            <li><a href="${
-              variables.linkedin
-                ? variables.linkedin
-                : "https://github.com/4GeeksAcademy"
+            <li><a href="https://www.linkedin.com/${
+              variables.linkedin ? variables.linkedin : "school/4geeksacademyes"
             }" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="${
-              variables.instagram
-                ? variables.instagram
-                : "https://github.com/4GeeksAcademy"
+            <li><a href="https://www.instagram.com/${
+              variables.instagram ? variables.instagram : "4geeksacademyes"
             }" target="_blank"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
